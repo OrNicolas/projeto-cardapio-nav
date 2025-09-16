@@ -123,10 +123,11 @@ background-color: #dd9000;
     border-radius: 10px;
     border: solid transparent;
     transition: transform 0.3s;
-
+    box-shadow: 0.2s;
 }
 .opcoes>li:hover{
     transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
 
 }
 
