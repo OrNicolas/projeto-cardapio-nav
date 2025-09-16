@@ -5,9 +5,11 @@
 
 }
 
-.title {background-color: #000000;
+.title {background-color: #ffa600;
 text-align: center;
-padding: 2rem;}
+padding: 2rem;
+color: #000000;}
+
   
 body {
     background-color: #181818;
