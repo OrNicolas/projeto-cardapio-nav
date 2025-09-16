@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    color: white;
+}
+.navegacoes_cabecalho {
+    background-color: #181818;
+    min-width: 100%;
+    ;
+    display: inline-block;
+    text-align: center;
+    padding-top: .8rem;
+    height: 50%;
+    padding-bottom: .8rem;
+    margin: 2 rem;
+;
+    color: white;
+}
+.top{
+    margin: 2%;
+    
+}
+.top a{
+    padding: 5;
+    margin: 2rem;
+    text-decoration: underline;
+}
+
+button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1.75rem;
+}
+
+.cabecalho__imagens {
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    z-index: -10;
+}
+
+.hero {
+    position: relative;
+    min-height: 55vh;
+    object-position: top;
+    margin-bottom: 0;
+    ;
+}
+
+
+.hero_back {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -10;
+    object-position: center;
+    overflow: hidden;
+    filter: brightness(50%)
+}
+
+.hero_foreground {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: #181818 1rem;
+}
+
+.hero_title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero_text {
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+}
+
+
+.hero_button {
+    text-decoration: none;
+    background-color: #ffa600;
+    border-radius: 8px;
+    color: #181818;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 50px;
+}
+
+.Cardapio_title {
+    text-align: center;
+    margin-top: 0;
+    font-size: 4rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+.opcoes>li {
+    text-align: center;
+    background-color: #ebebeb;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 3px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    border: solid transparent;
+}
+
+.opcoes {
+    text-align: center;
+}
+
+
+
+.sobre {
+    position: relative;
+    min-height: 30vh;
+    object-position: center;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486))
+}
+
+.sobre>img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: -10;
+    margin: 0;
+}
+
+.sobre_foreground {
+    text-align: center;
+    padding-top: 4rem;
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+
+.sobre_title {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+
+.oito {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.contato {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    ;
+}
+
+.contato>div {
+    margin: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 0.45rem;
+}
+
+.peca {
+    text-decoration: none;
+    text-align: center;
+    color: #181818;
+    background-color: #ffa600;
+    display: inline-block;
+    margin-left: 45%;
+    margin-bottom: 4rem;
+    margin-top: 0;
+    border-radius: 9px;
+    font-size: 1.2rem;
+    padding: 8px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #181818;
+    color: #ffa600;
+    padding: 1.5rem;
+}
+
+.rodape {
+    color: #181818;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffa600;
+    display: inline-block;
+    object-position: center;
+}

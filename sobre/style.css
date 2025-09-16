@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.title {background-color: #000000;
+text-align: center;
+padding: 2rem;}
+
+body {
+    background-color: #181818;
+}
+.sobre {text-align: center;
+padding: 2rem;
+margin-bottom: 0;
+margin-top: 2rem;
+font-size: 1.8rem;
+background-image: url(./pexels-eneida-nieves-905847.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+overflow: hidden; /* garante que o ::before não "vaze" */
+margin-top: 0;
+filter: brightness(95%);
+z-index: -1;
+}
+.sobre p {
+    color: #ffffff; /* cor forte */
+    
+
+}
+.sobre:before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url(./pexels-eneida-nieves-905847.jpg) no-repeat center/cover;
+    filter:brightness(50%);
+    z-index: -1; /* fica atrás do texto */
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.voltar{
+    text-align: center;
+   margin: 0;
+   background-color: #181818;
+   margin-top: 0;
+   padding: 3rem;
+   margin-bottom: 0;
+   
+}
+#botao {
+    border: solid;
+    border-radius: 4rem;
+    border-color: #ffa600;
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    color: white;
+    background-color: #ffa600;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+#botao:hover{
+    background-color: #d38900;
+    border-color: #d38900;
+     padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 2.9rem;
+    padding-right: 2.9rem;
+}
+.top{
+    margin: 2%;
+    
+}
+.top a{
+    padding: 5;
+    margin: 2rem;
+    text-decoration: underline;
+    color: white;
+    font-size: 1.1rem;
+}
+.navegacoes_cabecalho {
+    background-color: #181818;
+    min-width: 100%;
+    ;
+    display: inline-block;
+    text-align: center;
+    padding-top: .8rem;
+    height: 50%;
+    padding-bottom: .8rem;
+    margin: 2 rem;
+;
+    color: white;
+}
