@@ -36,7 +36,7 @@ z-index: -1;
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: url(./pexels-eneida-nieves-905847.jpg) no-repeat center/cover;
+    background: url(../imagens/pexels-eneida-nieves-905847.jpg) no-repeat center/cover;
     filter:brightness(50%);
     z-index: -1; /* fica atrás do texto */
     width: 100%;
@@ -62,20 +62,16 @@ z-index: -1;
     background-color: #ffa600;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+    transition: transform 0.3s;
+    display: inline-block;
     
 }
 #botao:hover{
     background-color: #d38900;
     border-color: #d38900;
-     padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-    padding-left: 2.9rem;
-    padding-right: 2.9rem;
+    transform: scale(1.02) translateY(-3px);
 }
-.top{
-    margin: 2%;
-    
-}
+
 .top a{
     padding: 5;
     margin: 2rem;
@@ -83,16 +79,25 @@ z-index: -1;
     color: white;
     font-size: 1.1rem;
 }
+
+
 .navegacoes_cabecalho {
     background-color: #181818;
     min-width: 100%;
-    ;
     display: inline-block;
     text-align: center;
-    padding-top: .8rem;
-    height: 50%;
-    padding-bottom: .8rem;
-    margin: 2 rem;
-;
+    height: 10%;
+
     color: white;
+}
+
+.top a{
+    transition: transform 0.3s;
+    padding: 1rem;
+
+    display: inline-block;
+
+}
+.top a:hover{
+    transform: scale(1.2) translateY(-5px);
 }
